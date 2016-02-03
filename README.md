@@ -77,6 +77,9 @@ function log(){
   console.log.apply(console, arguments);
 };
 
+//bind方式
+var log = console.log.bind(console);
+
 log(1);
 log(1,2);
 
