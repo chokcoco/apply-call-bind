@@ -37,10 +37,10 @@ func.apply(this, [arg1, arg2])
 
 * 数组之间追加
 ```javascript
-var array1 = [12 , "foo" , {name "Joe"} , -2458];  
+var array1 = [12 , "foo" , {name: "Joe"} , -2458];  
 var array2 = ["Doe" , 555 , 100];  
 Array.prototype.push.apply(array1, array2);  
-/* array1 值为  [12 , "foo" , {name "Joe"} , -2458 , "Doe" , 555 , 100] */
+/* array1 值为  [12 , "foo" , {name: "Joe"} , -2458 , "Doe" , 555 , 100] */
 ```
 
 * 获取数组中的最大值和最小值
